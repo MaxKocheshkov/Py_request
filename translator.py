@@ -33,5 +33,5 @@ if __name__ == '__main__':
         new_file_output = open('resalt/' + user_file + '_output.txt', "w", encoding = 'utf-8')
         new_file_output.write(translate_it(new_file_read))
         new_file_output.close()
-    print(f"Запись в файл завершена, файл {new_file_output} сохранен")
+    print(f"Запись в файл завершена, файл {user_file + '_output.txt'} сохранен")
 
